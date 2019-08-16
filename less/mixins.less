@@ -31,3 +31,28 @@
     padding:@padding;
    
 }
+
+//animation for stretch goal
+
+.fadeIn(@seconds:5s){
+    -webkit-animation-name: fadeIn; 
+    -webkit-animation-duration:5s; 
+    animation-name: fadeIn; 
+    animation-duration:@seconds; 
+    @-webkit-keyframes fadeIn {
+        0% {opacity: 0;}
+        20% {opacity:0.2;}
+        40% {opacity:0.4;}
+        60% {opacity:0.6;}
+        80% {opacity:0.8;}
+        100% {opacity:1; }
+    }
+    @keyframes fadeIn {
+        0% {opacity: 0;}
+        20% {opacity:0.2;}
+        40% {opacity:0.4;}
+        60% {opacity:0.6;}
+        80% {opacity:0.8;}
+        100% {opacity:1; }
+    }
+}
