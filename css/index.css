@@ -585,6 +585,7 @@ footer {
     display: flex;
     flex-direction: column-reverse;
     padding: 25px;
+    margin-top: 30px;
   }
 }
 .home .walk .walk-text {
