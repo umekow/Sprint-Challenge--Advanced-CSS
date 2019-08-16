@@ -21,11 +21,11 @@
 
 //parametric mixin for button
 
-.button(@width: 32%, @padding:10px 20px){
+.button(@width: 32%, @padding:10px 20px, @color:@sea-shell, @background:@btn-bg-color){
     font-size: 1.8em; 
     font-weight: bold; 
-    background:@btn-bg-color;
-    color:@sea-shell; 
+    background:@background;
+    color:@color; 
     max-width:@width;
     border-radius:5px; 
     padding:@padding;

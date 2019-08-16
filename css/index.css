@@ -262,6 +262,15 @@ footer {
   border-radius: 5px;
   padding: 10px 20px;
 }
+.home .walk .walk-text .btn:hover, .btn:active{
+  font-size: 1.8em;
+  font-weight: bold;
+  background: #F1F1F1;
+  color: #22283A;
+  max-width: 32%;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
