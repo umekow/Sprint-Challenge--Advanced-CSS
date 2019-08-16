@@ -262,7 +262,8 @@ footer {
   border-radius: 5px;
   padding: 10px 20px;
 }
-.home .walk .walk-text .btn:hover, .btn:active{
+.home .walk .walk-text .btn:hover,
+.home .walk .walk-text .btn:active {
   font-size: 1.8em;
   font-weight: bold;
   background: #F1F1F1;
