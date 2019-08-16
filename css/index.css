@@ -233,13 +233,13 @@ p {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  min-width: 45%;
+  min-width: 33%;
   font-size: 1.6em;
   padding: 0.5% 0 1%;
 }
 @media (max-width:500px) {
   .nav nav {
-    min-width: 70%;
+    min-width: 80%;
     font-size: 2em;
     padding-bottom: 3%;
   }
@@ -493,7 +493,7 @@ footer {
   html {
     display: flex;
     flex-direction: column;
-    width: 130%;
+    width: 100%;
     margin: 0 auto;
   }
 }
@@ -635,7 +635,7 @@ footer {
     color: #F1F1F1;
     max-width: 100%;
     border-radius: 5px;
-    padding: 30px 20px;
+    padding: 25px 20px;
     text-align: center;
   }
 }
