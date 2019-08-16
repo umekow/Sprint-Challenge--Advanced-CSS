@@ -34,13 +34,22 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website is designed with pixels to style different breakpoints. It doesn't support as many devices as an responsive website will. A responsive website will support many devices because it is designed with responsive units such as em and %. It will have different media queries including one for desktop, tablet and phone.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile-first design is when you design a web page for mobile devices first instead of a screen size for most desktops. You work on a smaller screen then scale the size up. Desktop-first design involves designing for a desktop screen first then scaling the screen size down. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+When the html tag font-size is 62.5%, you can convert rem by the power of 10. So 1 rem will equal 10px. 18 rem will equal 1.8px.
+
 4. How would you describe preprocessing to someone new to CSS?
+Preprocessing will allow you to write css that is manageable and easier to write. A CSS preprocessor has its own syntax and it will generate css from that syntax. Regualar CSS is great but you will have to search through your documents just to make a few changes.  It offers the features such as mixins which are like javascript functions and you write variables. So if you want to change the css of your web page, you will only have to change one or few lines of code. 
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I love variables and mixins because I do not have to write the same code so many times. If I want to change a value, I can just edit the variable or mixin. I still struggle with anchor tags. I think there may be a different syntax for anchor tags in less.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -50,7 +59,7 @@ Follow these steps to set up your project:
 
 ### Git Set up
 
-- [ ] Create a forked copy of this project.
+- [] Create a forked copy of this project.
 - [ ] Add your project manager as collaborator on Github.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.

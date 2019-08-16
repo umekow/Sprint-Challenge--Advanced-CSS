@@ -1,1 +1,58 @@
 // Mixins Here
+
+//mixin 1 for flex display with direction as column
+.column{
+    display:flex; 
+    flex-direction: column; 
+    justify-content: space-around; 
+    text-align:center; 
+    align-items:center; 
+
+}
+
+//mixin 2 for flex display
+.row{
+    display:flex; 
+    justify-content: space-between; 
+    text-align: center; 
+
+    
+}
+
+//parametric mixin for button
+
+.button(@width: 32%, @padding:10px 20px, @color:@sea-shell, @background:@btn-bg-color){
+    font-size: 1.8em; 
+    font-weight: bold; 
+    background:@background;
+    color:@color; 
+    max-width:@width;
+    border-radius:5px; 
+    padding:@padding;
+   
+}
+
+//animation for stretch goal
+
+.fadeIn(@seconds:5s){
+    -webkit-animation-name: fadeIn; 
+    -webkit-animation-duration:5s; 
+    animation-name: fadeIn; 
+    animation-duration:@seconds; 
+    @-webkit-keyframes fadeIn {
+        0% {opacity: 0;}
+        20% {opacity:0.2;}
+        40% {opacity:0.4;}
+        60% {opacity:0.6;}
+        80% {opacity:0.8;}
+        100% {opacity:1; }
+    }
+    @keyframes fadeIn {
+        0% {opacity: 0;}
+        20% {opacity:0.2;}
+        40% {opacity:0.4;}
+        60% {opacity:0.6;}
+        80% {opacity:0.8;}
+        100% {opacity:1; }
+    }
+}
